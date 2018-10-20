@@ -67,4 +67,5 @@ public interface BaseService<T> {
      */
     void deleteByIds(Serializable[] ids);
 
+
 }

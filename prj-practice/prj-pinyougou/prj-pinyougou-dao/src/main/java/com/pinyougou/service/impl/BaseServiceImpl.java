@@ -6,6 +6,7 @@ import com.pinyougou.service.BaseService;
 import com.pinyougou.vo.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import tk.mybatis.mapper.common.Mapper;
+import tk.mybatis.mapper.entity.Example;
 
 import java.io.Serializable;
 import java.util.List;
@@ -76,4 +77,5 @@ public abstract class BaseServiceImpl<T> implements BaseService<T> {
             }
         }
     }
+
 }
